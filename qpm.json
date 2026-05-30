@@ -1,0 +1,135 @@
+{
+  "$schema": "https://raw.githubusercontent.com/QuestPackageManager/QPM.Package/refs/heads/main/qpm.schema.json",
+  "sharedDir": "shared",
+  "dependenciesDir": "extern",
+  "version": "0.4.13",
+  "info": {
+    "name": "Vivify",
+    "id": "vivify",
+    "version": "0.4.13",
+    "url": "https://github.com/Lookingforscripts1/Vivify-Quest3.0fork/",
+    "additionalData": {
+      "overrideSoName": "libvivify.so",
+      "cmake": true
+    }
+  },
+  "workspace": {
+    "scripts": {
+      "build": [
+        "powershell -ExecutionPolicy Bypass ./scripts/build.ps1"
+      ],
+      "clean": [
+        "powershell -ExecutionPolicy Bypass ./scripts/build.ps1 -clean"
+      ],
+      "copy": [
+        "powershell -ExecutionPolicy Bypass ./scripts/copy.ps1 $0:?"
+      ],
+      "logcat": [
+        "powershell -ExecutionPolicy Bypass ./scripts/start-logging.ps1"
+      ],
+      "qmod": [
+        "powershell -ExecutionPolicy Bypass ./scripts/build.ps1",
+        "powershell -ExecutionPolicy Bypass ./scripts/createqmod.ps1"
+      ],
+      "restart": [
+        "powershell -ExecutionPolicy Bypass ./scripts/restart-game.ps1"
+      ],
+      "stack": [
+        "powershell -ExecutionPolicy Bypass ./scripts/ndk-stack.ps1"
+      ],
+      "tomb": [
+        "powershell -ExecutionPolicy Bypass ./scripts/pull-tombstone.ps1"
+      ]
+    },
+    "ndk": "^27.3.13750724",
+    "qmodIncludeDirs": [
+      "./build",
+      "./extern/libs"
+    ],
+    "qmodIncludeFiles": [],
+    "qmodOutput": "./Vivify.qmod"
+  },
+  "dependencies": [
+    {
+      "id": "beatsaber-hook",
+      "versionRange": "^6.4.2",
+      "additionalData": {}
+    },
+    {
+      "id": "bs-cordl",
+      "versionRange": "4008.*",
+      "additionalData": {}
+    },
+    {
+      "id": "custom-types",
+      "versionRange": "^0.18.4",
+      "additionalData": {
+        "includeQmod": true
+      }
+    },
+    {
+      "id": "custom-json-data",
+      "versionRange": "^0.24.5",
+      "additionalData": {}
+    },
+    {
+      "id": "tracks",
+      "versionRange": "^2.5.3",
+      "additionalData": {}
+    },
+    {
+      "id": "songcore",
+      "versionRange": "^1.1.26",
+      "additionalData": {
+        "includeQmod": true
+      }
+    },
+    {
+      "id": "bsml",
+      "versionRange": "^0.4.55",
+      "additionalData": {}
+    },
+    {
+      "id": "config-utils",
+      "versionRange": "^2.0.3",
+      "additionalData": {}
+    },
+    {
+      "id": "web-utils",
+      "versionRange": "*",
+      "additionalData": {}
+    },
+    {
+      "id": "scotland2",
+      "versionRange": "^0.1.6",
+      "additionalData": {
+        "includeQmod": false
+      }
+    },
+    {
+      "id": "paper2_scotland2",
+      "versionRange": "^4.6.4",
+      "additionalData": {}
+    },
+    {
+      "id": "conditional-dependencies",
+      "versionRange": "^0.3.0",
+      "additionalData": {}
+    },
+    {
+      "id": "sombrero",
+      "versionRange": "^0.1.43",
+      "additionalData": {}
+    },
+    {
+      "id": "cpp-semver",
+      "versionRange": "^0.1.2",
+      "additionalData": {}
+    },
+    {
+      "id": "metacore",
+      "versionRange": "^1.0.3",
+      "additionalData": {}
+    }
+  ]
+}
