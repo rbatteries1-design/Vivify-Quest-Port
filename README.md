@@ -1,3 +1,4 @@
+
 # Vivify Quest Port
 ------
 ## Installation For Making Your Own
@@ -55,3 +56,12 @@ Now if you have beatsaber installed and own beatsaber. you are gonna let MBF con
 * metacore ^1.0.3
 
 MOST OF THESE ARE BASE CORE MODS INSTALLED WHEN YOU USE MBF. MOST ARE NEEDED TO BE INSTALLED MANUALLY.
+
+## Credits
+DO NOT STEAL CODE AT ALL FROM OTHERS, STEALING CODE IS A CRIME. PLEASE DO NOT STEAL ANYONES WORK OR EVEN ATTEMPT TOO.
+I borrowed some of this code from
+[Axo-lotl](https://github.com/axo-lotl/Vivify-Quest)
+**LookingForScripts1**
+I borrowed LookingForScripts code. so thank you to him. also thank you to axo-lotl for giving 0.4.0 early to meh :)
+
+(Edit: No link for LookingForScripts1. he removed his fork of axo-lotls so that means i physically don't have it)
