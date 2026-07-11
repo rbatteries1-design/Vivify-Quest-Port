@@ -55,11 +55,3 @@ Now if you have beatsaber installed and own beatsaber. you are gonna let MBF con
 * metacore ^1.0.3
 
 MOST OF THESE ARE BASE CORE MODS INSTALLED WHEN YOU USE MBF. MOST ARE NEEDED TO BE INSTALLED MANUALLY.
-
-## Credits
-Below is the credits to most of this source. i do not want to steal code from others so this is credits to them. (REMEMBER WHEN YOU BORROW CODE. ALWAYS GIVE CREDITS YA LIL SKID)
-
-* [Axo-lotl](https://github.com/axo-lotl)
-* [LookingForScripts1](https://github.com/Lookingforscripts1)
-
-I borrowed most of this code from LookingForScripts. Thank you to them for getting this port to work!
